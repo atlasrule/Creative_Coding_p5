@@ -1,0 +1,33 @@
+var w = h = 820;
+
+var pxSize = 10;
+
+var ns = 1/75;  //Noise Scale
+
+var mouseScale = 1/80;
+
+function setup() {
+  createCanvas(w, h);
+  colorMode(HSB, w);
+  frameRate(30);
+}
+
+function draw() {
+  
+  let offsetX = mouseX * mouseScale;
+  let offsetY = mouseY * mouseScale;
+  
+  
+  for (let i=0; i<w; i+=pxSize) {
+    for (let j=0; j<h; j+=pxSize) {
+      
+      let v1 = noise( (i*ns)+offsetX, (j*ns)+offsetY ) * 255
+      
+      let v2 = noise( (i*ns)-offsetX, (j*ns)-offsetY ) * 255
+      
+      fill(( v1 + v2 ) * 2.3, w, w);
+      square(i,j, pxSize);   
+    }
+  }
+  
+}
