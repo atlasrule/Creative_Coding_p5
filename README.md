@@ -23,3 +23,11 @@ Visual experiments with p5.js
 
 
 ![](https://github.com/atlasrule/Creative_Coding_p5/blob/master/moire.gif)
+
+
+
+![](https://github.com/atlasrule/Creative_Coding_p5/blob/master/pixel_1.gif)
+
+
+
+![](https://github.com/atlasrule/Creative_Coding_p5/blob/master/pixel_2.gif)
