@@ -31,3 +31,7 @@ Visual experiments with p5.js
 
 
 ![](https://github.com/atlasrule/Creative_Coding_p5/blob/master/pixel_2.gif)
+
+
+
+![](https://github.com/atlasrule/Creative_Coding_p5/blob/master/conways-game-of-life.gif)
